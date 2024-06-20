@@ -9,36 +9,22 @@ import SwiftUI
 import MetalKit
 
 
-
 func getScale () -> CGFloat {
     
-    let screenObject = NSScreen.main
+    let screenObject = UIScreen.main
     
-    guard let scale = screenObject?.backingScaleFactor else {
-        
-        return 1
-        
-    }
-    return scale
+    return screenObject.scale
     
 }
-
-
-
-
-
 struct ContentView: View {
     
-    @State var w:CGFloat = 0
-    @State var h:CGFloat = 0
-    
-    let scaleFactor: CGFloat = getScale()
-    
-    @State var sensorDistance: Float = 40
+    @State var sensorDistance: Float = 60
     @State var sensorAngle: Float = .pi / 6
     @State var maxTurn: Float = .pi / 12
+    let scaleFactor:CGFloat = 3
+    @State var w: Float = 1000
+    @State var h: Float = 1000
     
-    @State var startSimulation = false
     
     @State var showColours = false
     
@@ -48,30 +34,24 @@ struct ContentView: View {
                                                [1, 0, 0]]
     
     var body: some View {
+        
 
         VStack {
-
-            if startSimulation {
+            
+            GeometryReader {geo in
                 
-                GeometryReader {geo in
-                    
-                    let agentData: AgentData = AgentData(numberSpecies: Int32(species.count), maxTurn: maxTurn, sensorAngle: sensorAngle, sensorDistance: sensorDistance, width: Int32(geo.size.width * scaleFactor), height: Int32(geo.size.height * scaleFactor))
-
-                    MetalView(agentData: agentData, species: species)
-                        .onAppear {
-                            w = geo.size.width
-                            h = geo.size.height
-                        }
-                    //.frame(width: w, height: h)
-                }
-            } else {
+            
                 
-                Spacer()
-                Button(action: {startSimulation = true}) {
-                    Text("Start Simulation")
-                        .disabled(!startSimulation)
-                }
-            }
+                let agentData: AgentData = AgentData(numberSpecies: 3, maxTurn: maxTurn, sensorAngle: sensorAngle, sensorDistance: sensorDistance, width: Int32(geo.size.width * scaleFactor), height: Int32(geo.size.height * scaleFactor))
+
+                MetalView(agentData: agentData, species: species)
+                    .onAppear {
+                        
+                        w = Float(geo.size.width)
+                        h = Float(geo.size.height)
+                    }
+            }                    
+
             
             HStack {
                 VStack {
@@ -82,7 +62,7 @@ struct ContentView: View {
                 Button(action: {
                     showColours.toggle()
                 }) {
-                    Text("Select colours")
+                    Text("Select \n colours")
                 }
                 
                 .popover(isPresented: $showColours, content: ({
@@ -115,25 +95,31 @@ struct ContentView: View {
                 VStack {
                     Slider(value: $sensorDistance, in: 1...500)
                     Text("View distance \(sensorDistance)")
+                    
+                    
                 }
             }
         }
+            
     }
 }
 
-struct MetalView: NSViewRepresentable {
+
+
+struct MetalView: UIViewRepresentable {
     
+
     let agentData: AgentData
     let species: [simd_float3]
-    
+
     func makeCoordinator() -> Renderer {
         Renderer(self, agentData: agentData, species: species)
     }
     
-    func makeNSView(context: Context) -> MTKView {
+    func makeUIView(context: Context) -> MTKView {
         let mtkView = MTKView()
         mtkView.delegate = context.coordinator
-        mtkView.preferredFramesPerSecond = 60
+        mtkView.preferredFramesPerSecond = 120
         mtkView.enableSetNeedsDisplay = false
         
         if let metalDevice = MTLCreateSystemDefaultDevice() {
@@ -143,14 +129,14 @@ struct MetalView: NSViewRepresentable {
         mtkView.framebufferOnly = false
         mtkView.drawableSize = mtkView.frame.size
 
-
       
         return mtkView
     }
     
-    func updateNSView(_ nsView: MTKView, context: Context) {
+    func updateUIView(_ uiView: MTKView, context: Context) {
         context.coordinator.agentData = agentData
         context.coordinator.species = species
+
     }
 }
 

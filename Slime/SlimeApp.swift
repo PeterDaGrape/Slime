@@ -13,5 +13,10 @@ struct SlimeApp: App {
         WindowGroup {
             ContentView()
         }
+        /*
+        Window("Colour Picker" , id: "ColourPick") {
+            ColourPicker()
+        }
+         */
     }
 }

@@ -7,62 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942C67FA2C1CFD4700FD598C /* loki_header.metal in Sources */ = {isa = PBXBuildFile; fileRef = 942C67F72C1CFD4700FD598C /* loki_header.metal */; };
+		942C67FB2C1CFD4700FD598C /* loki.metal in Sources */ = {isa = PBXBuildFile; fileRef = 942C67F82C1CFD4700FD598C /* loki.metal */; };
+		942C68032C1D0E5700FD598C /* Slime_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C68022C1D0E5700FD598C /* Slime_iOSApp.swift */; };
+		942C68052C1D0E5700FD598C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C68042C1D0E5700FD598C /* ContentView.swift */; };
+		942C68072C1D0E5900FD598C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942C68062C1D0E5900FD598C /* Assets.xcassets */; };
+		942C680A2C1D0E5900FD598C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942C68092C1D0E5900FD598C /* Preview Assets.xcassets */; };
+		942C682A2C1D0E6E00FD598C /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9C3412C1BA9E900A8A9F9 /* Renderer.swift */; };
+		942C682B2C1D133700FD598C /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 94A9C3442C1BAD8100A8A9F9 /* Shaders.metal */; };
+		942C682C2C1D13C900FD598C /* loki_header.metal in Sources */ = {isa = PBXBuildFile; fileRef = 942C67F72C1CFD4700FD598C /* loki_header.metal */; };
+		942C682D2C1D13D000FD598C /* loki.metal in Sources */ = {isa = PBXBuildFile; fileRef = 942C67F82C1CFD4700FD598C /* loki.metal */; };
 		94A9C3152C1BA8D000A8A9F9 /* SlimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9C3142C1BA8D000A8A9F9 /* SlimeApp.swift */; };
 		94A9C3172C1BA8D000A8A9F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9C3162C1BA8D000A8A9F9 /* ContentView.swift */; };
 		94A9C3192C1BA8D400A8A9F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A9C3182C1BA8D400A8A9F9 /* Assets.xcassets */; };
 		94A9C31C2C1BA8D400A8A9F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A9C31B2C1BA8D400A8A9F9 /* Preview Assets.xcassets */; };
-		94A9C3272C1BA8D400A8A9F9 /* SlimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9C3262C1BA8D400A8A9F9 /* SlimeTests.swift */; };
-		94A9C3312C1BA8D400A8A9F9 /* SlimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9C3302C1BA8D400A8A9F9 /* SlimeUITests.swift */; };
-		94A9C3332C1BA8D400A8A9F9 /* SlimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9C3322C1BA8D400A8A9F9 /* SlimeUITestsLaunchTests.swift */; };
+		94A9C3422C1BA9E900A8A9F9 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9C3412C1BA9E900A8A9F9 /* Renderer.swift */; };
+		94A9C3452C1BAD8100A8A9F9 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 94A9C3442C1BAD8100A8A9F9 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94A9C3232C1BA8D400A8A9F9 /* PBXContainerItemProxy */ = {
+		942C68102C1D0E5A00FD598C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94A9C3092C1BA8D000A8A9F9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94A9C3102C1BA8D000A8A9F9;
-			remoteInfo = Slime;
+			remoteGlobalIDString = 942C67FF2C1D0E5700FD598C;
+			remoteInfo = "Slime iOS";
 		};
-		94A9C32D2C1BA8D400A8A9F9 /* PBXContainerItemProxy */ = {
+		942C681A2C1D0E5A00FD598C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94A9C3092C1BA8D000A8A9F9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94A9C3102C1BA8D000A8A9F9;
-			remoteInfo = Slime;
+			remoteGlobalIDString = 942C67FF2C1D0E5700FD598C;
+			remoteInfo = "Slime iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		942C67F72C1CFD4700FD598C /* loki_header.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = loki_header.metal; sourceTree = "<group>"; };
+		942C67F82C1CFD4700FD598C /* loki.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = loki.metal; sourceTree = "<group>"; };
+		942C68002C1D0E5700FD598C /* Slime iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slime iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942C68022C1D0E5700FD598C /* Slime_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slime_iOSApp.swift; sourceTree = "<group>"; };
+		942C68042C1D0E5700FD598C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		942C68062C1D0E5900FD598C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		942C68092C1D0E5900FD598C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		942C680F2C1D0E5A00FD598C /* Slime iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slime iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942C68192C1D0E5A00FD598C /* Slime iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slime iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A9C3112C1BA8D000A8A9F9 /* Slime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A9C3142C1BA8D000A8A9F9 /* SlimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlimeApp.swift; sourceTree = "<group>"; };
 		94A9C3162C1BA8D000A8A9F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		94A9C3182C1BA8D400A8A9F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94A9C31B2C1BA8D400A8A9F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94A9C31D2C1BA8D400A8A9F9 /* Slime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slime.entitlements; sourceTree = "<group>"; };
-		94A9C3222C1BA8D400A8A9F9 /* SlimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		94A9C3262C1BA8D400A8A9F9 /* SlimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlimeTests.swift; sourceTree = "<group>"; };
-		94A9C32C2C1BA8D400A8A9F9 /* SlimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		94A9C3302C1BA8D400A8A9F9 /* SlimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlimeUITests.swift; sourceTree = "<group>"; };
-		94A9C3322C1BA8D400A8A9F9 /* SlimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94A9C3412C1BA9E900A8A9F9 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		94A9C3432C1BAA5B00A8A9F9 /* definitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = definitions.h; sourceTree = "<group>"; };
+		94A9C3442C1BAD8100A8A9F9 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		942C67FD2C1D0E5700FD598C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942C680C2C1D0E5A00FD598C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942C68162C1D0E5A00FD598C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94A9C30E2C1BA8D000A8A9F9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94A9C31F2C1BA8D400A8A9F9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94A9C3292C1BA8D400A8A9F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,12 +95,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		942C67F92C1CFD4700FD598C /* Loki */ = {
+			isa = PBXGroup;
+			children = (
+				942C67F72C1CFD4700FD598C /* loki_header.metal */,
+				942C67F82C1CFD4700FD598C /* loki.metal */,
+			);
+			path = Loki;
+			sourceTree = "<group>";
+		};
+		942C68012C1D0E5700FD598C /* Slime iOS */ = {
+			isa = PBXGroup;
+			children = (
+				942C68022C1D0E5700FD598C /* Slime_iOSApp.swift */,
+				942C68042C1D0E5700FD598C /* ContentView.swift */,
+				942C68062C1D0E5900FD598C /* Assets.xcassets */,
+				942C68082C1D0E5900FD598C /* Preview Content */,
+			);
+			path = "Slime iOS";
+			sourceTree = "<group>";
+		};
+		942C68082C1D0E5900FD598C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				942C68092C1D0E5900FD598C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		94A9C3082C1BA8D000A8A9F9 = {
 			isa = PBXGroup;
 			children = (
+				94A9C3442C1BAD8100A8A9F9 /* Shaders.metal */,
+				94A9C3432C1BAA5B00A8A9F9 /* definitions.h */,
+				94A9C3412C1BA9E900A8A9F9 /* Renderer.swift */,
+				942C67F92C1CFD4700FD598C /* Loki */,
 				94A9C3132C1BA8D000A8A9F9 /* Slime */,
-				94A9C3252C1BA8D400A8A9F9 /* SlimeTests */,
-				94A9C32F2C1BA8D400A8A9F9 /* SlimeUITests */,
+				942C68012C1D0E5700FD598C /* Slime iOS */,
 				94A9C3122C1BA8D000A8A9F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				94A9C3112C1BA8D000A8A9F9 /* Slime.app */,
-				94A9C3222C1BA8D400A8A9F9 /* SlimeTests.xctest */,
-				94A9C32C2C1BA8D400A8A9F9 /* SlimeUITests.xctest */,
+				942C68002C1D0E5700FD598C /* Slime iOS.app */,
+				942C680F2C1D0E5A00FD598C /* Slime iOSTests.xctest */,
+				942C68192C1D0E5A00FD598C /* Slime iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,26 +167,62 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		94A9C3252C1BA8D400A8A9F9 /* SlimeTests */ = {
-			isa = PBXGroup;
-			children = (
-				94A9C3262C1BA8D400A8A9F9 /* SlimeTests.swift */,
-			);
-			path = SlimeTests;
-			sourceTree = "<group>";
-		};
-		94A9C32F2C1BA8D400A8A9F9 /* SlimeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				94A9C3302C1BA8D400A8A9F9 /* SlimeUITests.swift */,
-				94A9C3322C1BA8D400A8A9F9 /* SlimeUITestsLaunchTests.swift */,
-			);
-			path = SlimeUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		942C67FF2C1D0E5700FD598C /* Slime iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942C68212C1D0E5A00FD598C /* Build configuration list for PBXNativeTarget "Slime iOS" */;
+			buildPhases = (
+				942C67FC2C1D0E5700FD598C /* Sources */,
+				942C67FD2C1D0E5700FD598C /* Frameworks */,
+				942C67FE2C1D0E5700FD598C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slime iOS";
+			productName = "Slime iOS";
+			productReference = 942C68002C1D0E5700FD598C /* Slime iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		942C680E2C1D0E5A00FD598C /* Slime iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942C68242C1D0E5A00FD598C /* Build configuration list for PBXNativeTarget "Slime iOSTests" */;
+			buildPhases = (
+				942C680B2C1D0E5A00FD598C /* Sources */,
+				942C680C2C1D0E5A00FD598C /* Frameworks */,
+				942C680D2C1D0E5A00FD598C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942C68112C1D0E5A00FD598C /* PBXTargetDependency */,
+			);
+			name = "Slime iOSTests";
+			productName = "Slime iOSTests";
+			productReference = 942C680F2C1D0E5A00FD598C /* Slime iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		942C68182C1D0E5A00FD598C /* Slime iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942C68272C1D0E5A00FD598C /* Build configuration list for PBXNativeTarget "Slime iOSUITests" */;
+			buildPhases = (
+				942C68152C1D0E5A00FD598C /* Sources */,
+				942C68162C1D0E5A00FD598C /* Frameworks */,
+				942C68172C1D0E5A00FD598C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942C681B2C1D0E5A00FD598C /* PBXTargetDependency */,
+			);
+			name = "Slime iOSUITests";
+			productName = "Slime iOSUITests";
+			productReference = 942C68192C1D0E5A00FD598C /* Slime iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		94A9C3102C1BA8D000A8A9F9 /* Slime */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94A9C3362C1BA8D400A8A9F9 /* Build configuration list for PBXNativeTarget "Slime" */;
@@ -149,42 +240,6 @@
 			productReference = 94A9C3112C1BA8D000A8A9F9 /* Slime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		94A9C3212C1BA8D400A8A9F9 /* SlimeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 94A9C3392C1BA8D400A8A9F9 /* Build configuration list for PBXNativeTarget "SlimeTests" */;
-			buildPhases = (
-				94A9C31E2C1BA8D400A8A9F9 /* Sources */,
-				94A9C31F2C1BA8D400A8A9F9 /* Frameworks */,
-				94A9C3202C1BA8D400A8A9F9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				94A9C3242C1BA8D400A8A9F9 /* PBXTargetDependency */,
-			);
-			name = SlimeTests;
-			productName = SlimeTests;
-			productReference = 94A9C3222C1BA8D400A8A9F9 /* SlimeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		94A9C32B2C1BA8D400A8A9F9 /* SlimeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 94A9C33C2C1BA8D400A8A9F9 /* Build configuration list for PBXNativeTarget "SlimeUITests" */;
-			buildPhases = (
-				94A9C3282C1BA8D400A8A9F9 /* Sources */,
-				94A9C3292C1BA8D400A8A9F9 /* Frameworks */,
-				94A9C32A2C1BA8D400A8A9F9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				94A9C32E2C1BA8D400A8A9F9 /* PBXTargetDependency */,
-			);
-			name = SlimeUITests;
-			productName = SlimeUITests;
-			productReference = 94A9C32C2C1BA8D400A8A9F9 /* SlimeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,16 +250,19 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					942C67FF2C1D0E5700FD598C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					942C680E2C1D0E5A00FD598C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 942C67FF2C1D0E5700FD598C;
+					};
+					942C68182C1D0E5A00FD598C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 942C67FF2C1D0E5700FD598C;
+					};
 					94A9C3102C1BA8D000A8A9F9 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					94A9C3212C1BA8D400A8A9F9 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 94A9C3102C1BA8D000A8A9F9;
-					};
-					94A9C32B2C1BA8D400A8A9F9 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 94A9C3102C1BA8D000A8A9F9;
 					};
 				};
 			};
@@ -222,13 +280,37 @@
 			projectRoot = "";
 			targets = (
 				94A9C3102C1BA8D000A8A9F9 /* Slime */,
-				94A9C3212C1BA8D400A8A9F9 /* SlimeTests */,
-				94A9C32B2C1BA8D400A8A9F9 /* SlimeUITests */,
+				942C67FF2C1D0E5700FD598C /* Slime iOS */,
+				942C680E2C1D0E5A00FD598C /* Slime iOSTests */,
+				942C68182C1D0E5A00FD598C /* Slime iOSUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		942C67FE2C1D0E5700FD598C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942C680A2C1D0E5900FD598C /* Preview Assets.xcassets in Resources */,
+				942C68072C1D0E5900FD598C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942C680D2C1D0E5A00FD598C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942C68172C1D0E5A00FD598C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94A9C30F2C1BA8D000A8A9F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,65 +320,214 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94A9C3202C1BA8D400A8A9F9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94A9C32A2C1BA8D400A8A9F9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		942C67FC2C1D0E5700FD598C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942C682D2C1D13D000FD598C /* loki.metal in Sources */,
+				942C682C2C1D13C900FD598C /* loki_header.metal in Sources */,
+				942C682B2C1D133700FD598C /* Shaders.metal in Sources */,
+				942C68052C1D0E5700FD598C /* ContentView.swift in Sources */,
+				942C682A2C1D0E6E00FD598C /* Renderer.swift in Sources */,
+				942C68032C1D0E5700FD598C /* Slime_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942C680B2C1D0E5A00FD598C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942C68152C1D0E5A00FD598C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94A9C30D2C1BA8D000A8A9F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942C67FA2C1CFD4700FD598C /* loki_header.metal in Sources */,
+				942C67FB2C1CFD4700FD598C /* loki.metal in Sources */,
+				94A9C3452C1BAD8100A8A9F9 /* Shaders.metal in Sources */,
 				94A9C3172C1BA8D000A8A9F9 /* ContentView.swift in Sources */,
+				94A9C3422C1BA9E900A8A9F9 /* Renderer.swift in Sources */,
 				94A9C3152C1BA8D000A8A9F9 /* SlimeApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94A9C31E2C1BA8D400A8A9F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94A9C3272C1BA8D400A8A9F9 /* SlimeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94A9C3282C1BA8D400A8A9F9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94A9C3312C1BA8D400A8A9F9 /* SlimeUITests.swift in Sources */,
-				94A9C3332C1BA8D400A8A9F9 /* SlimeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		94A9C3242C1BA8D400A8A9F9 /* PBXTargetDependency */ = {
+		942C68112C1D0E5A00FD598C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94A9C3102C1BA8D000A8A9F9 /* Slime */;
-			targetProxy = 94A9C3232C1BA8D400A8A9F9 /* PBXContainerItemProxy */;
+			target = 942C67FF2C1D0E5700FD598C /* Slime iOS */;
+			targetProxy = 942C68102C1D0E5A00FD598C /* PBXContainerItemProxy */;
 		};
-		94A9C32E2C1BA8D400A8A9F9 /* PBXTargetDependency */ = {
+		942C681B2C1D0E5A00FD598C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94A9C3102C1BA8D000A8A9F9 /* Slime */;
-			targetProxy = 94A9C32D2C1BA8D400A8A9F9 /* PBXContainerItemProxy */;
+			target = 942C67FF2C1D0E5700FD598C /* Slime iOS */;
+			targetProxy = 942C681A2C1D0E5A00FD598C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		942C68222C1D0E5A00FD598C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slime iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5G8A9332BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PeterDaGrape.Slime-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = definitions.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		942C68232C1D0E5A00FD598C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Slime iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 5G8A9332BC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PeterDaGrape.Slime-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = definitions.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		942C68252C1D0E5A00FD598C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8A9332BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PeterDaGrape.Slime-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slime iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slime iOS";
+			};
+			name = Debug;
+		};
+		942C68262C1D0E5A00FD598C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8A9332BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PeterDaGrape.Slime-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slime iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slime iOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		942C68282C1D0E5A00FD598C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8A9332BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PeterDaGrape.Slime-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Slime iOS";
+			};
+			name = Debug;
+		};
+		942C68292C1D0E5A00FD598C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5G8A9332BC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PeterDaGrape.Slime-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Slime iOS";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		94A9C3342C1BA8D400A8A9F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -438,6 +669,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.PeterDaGrape.Slime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = definitions.h;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -465,85 +697,41 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.PeterDaGrape.Slime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = definitions.h;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		94A9C33A2C1BA8D400A8A9F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5G8A9332BC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PeterDaGrape.SlimeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slime";
-			};
-			name = Debug;
-		};
-		94A9C33B2C1BA8D400A8A9F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5G8A9332BC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PeterDaGrape.SlimeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Slime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Slime";
-			};
-			name = Release;
-		};
-		94A9C33D2C1BA8D400A8A9F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5G8A9332BC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PeterDaGrape.SlimeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Slime;
-			};
-			name = Debug;
-		};
-		94A9C33E2C1BA8D400A8A9F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5G8A9332BC;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PeterDaGrape.SlimeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = Slime;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		942C68212C1D0E5A00FD598C /* Build configuration list for PBXNativeTarget "Slime iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942C68222C1D0E5A00FD598C /* Debug */,
+				942C68232C1D0E5A00FD598C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942C68242C1D0E5A00FD598C /* Build configuration list for PBXNativeTarget "Slime iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942C68252C1D0E5A00FD598C /* Debug */,
+				942C68262C1D0E5A00FD598C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942C68272C1D0E5A00FD598C /* Build configuration list for PBXNativeTarget "Slime iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942C68282C1D0E5A00FD598C /* Debug */,
+				942C68292C1D0E5A00FD598C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		94A9C30C2C1BA8D000A8A9F9 /* Build configuration list for PBXProject "Slime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -558,24 +746,6 @@
 			buildConfigurations = (
 				94A9C3372C1BA8D400A8A9F9 /* Debug */,
 				94A9C3382C1BA8D400A8A9F9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94A9C3392C1BA8D400A8A9F9 /* Build configuration list for PBXNativeTarget "SlimeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94A9C33A2C1BA8D400A8A9F9 /* Debug */,
-				94A9C33B2C1BA8D400A8A9F9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94A9C33C2C1BA8D400A8A9F9 /* Build configuration list for PBXNativeTarget "SlimeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94A9C33D2C1BA8D400A8A9F9 /* Debug */,
-				94A9C33E2C1BA8D400A8A9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
