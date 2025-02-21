@@ -25,6 +25,7 @@ struct ContentView: View {
     @State var w: Float = 1000
     @State var h: Float = 1000
     
+    @State var paused = 0
     
     @State var showColours = false
     
@@ -42,7 +43,7 @@ struct ContentView: View {
                 
             
                 
-                let agentData: AgentData = AgentData(numberSpecies: 3, maxTurn: maxTurn, sensorAngle: sensorAngle, sensorDistance: sensorDistance, width: Int32(geo.size.width * scaleFactor), height: Int32(geo.size.height * scaleFactor))
+                let agentData: AgentData = AgentData(numberSpecies: 3, maxTurn: maxTurn, sensorAngle: sensorAngle, sensorDistance: sensorDistance, width: Int32(geo.size.width * scaleFactor), height: Int32(geo.size.height * scaleFactor), paused: Int32(paused))
 
                 MetalView(agentData: agentData, species: species)
                     .onAppear {
@@ -50,7 +51,8 @@ struct ContentView: View {
                         w = Float(geo.size.width)
                         h = Float(geo.size.height)
                     }
-            }                    
+                
+            }
 
             
             HStack {
@@ -59,10 +61,29 @@ struct ContentView: View {
                     Text("Field of view \((sensorAngle * 2) * 180 / .pi)")
                 }
                 
-                Button(action: {
-                    showColours.toggle()
-                }) {
-                    Text("Select \n colours")
+            
+                
+                VStack {
+                    Button(action: {
+                        showColours.toggle()
+                    }) {
+                        Text("Select colours")
+                    }
+                    
+                    Button(action: {
+                        if (paused == 0) {
+                            paused = 1
+                        } else {
+                            paused = 0
+                        }
+                    }) {
+                        if (paused == 0) {
+                            Text("Pause")
+                        } else {
+                            Text("Play")
+                        }
+                    }
+                    
                 }
                 
                 .popover(isPresented: $showColours, content: ({

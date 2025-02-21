@@ -13,6 +13,9 @@
 
 #include <simd/simd.h>
 
+
+
+
 struct Vertex {
     
     vector_float2 position;
@@ -22,12 +25,31 @@ struct Vertex {
 
 struct Agent {
 
-    
     vector_float2 position;
     float angle;
     int index;
-    float velocity;
+    
+};
 
+struct ShaderOptions {
+    
+    float reduceAmount;
+    
+    float diffusionAmount;
+    
+    float drawStrength;
+    
+    int maxBlurDistance;
+    
+};
+
+struct Options {
+    
+    int numberAgents;
+    int drawTrails;
+    int paused;
+    
+    struct ShaderOptions shaderOptions;
     
     
 };
@@ -41,7 +63,8 @@ struct AgentData {
     float sensorDistance;
     int width;
     int height;
-
+    float velocity;
+    
     
 };
 

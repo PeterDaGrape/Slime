@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1600"
+   LastUpgradeVersion = "1610"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94A9C3102C1BA8D000A8A9F9"
-               BuildableName = "Slime.app"
-               BlueprintName = "Slime"
+               BlueprintIdentifier = "942C67FF2C1D0E5700FD598C"
+               BuildableName = "Slime iOS.app"
+               BlueprintName = "Slime iOS"
                ReferencedContainer = "container:Slime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -35,9 +35,9 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94A9C3212C1BA8D400A8A9F9"
-               BuildableName = "SlimeTests.xctest"
-               BlueprintName = "SlimeTests"
+               BlueprintIdentifier = "942C680E2C1D0E5A00FD598C"
+               BuildableName = "Slime iOSTests.xctest"
+               BlueprintName = "Slime iOSTests"
                ReferencedContainer = "container:Slime.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -46,9 +46,9 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94A9C32B2C1BA8D400A8A9F9"
-               BuildableName = "SlimeUITests.xctest"
-               BlueprintName = "SlimeUITests"
+               BlueprintIdentifier = "942C68182C1D0E5A00FD598C"
+               BuildableName = "Slime iOSUITests.xctest"
+               BlueprintName = "Slime iOSUITests"
                ReferencedContainer = "container:Slime.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -63,15 +63,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      enableGPUFrameCaptureMode = "1"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94A9C3102C1BA8D000A8A9F9"
-            BuildableName = "Slime.app"
-            BlueprintName = "Slime"
+            BlueprintIdentifier = "942C67FF2C1D0E5700FD598C"
+            BuildableName = "Slime iOS.app"
+            BlueprintName = "Slime iOS"
             ReferencedContainer = "container:Slime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -86,9 +85,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94A9C3102C1BA8D000A8A9F9"
-            BuildableName = "Slime.app"
-            BlueprintName = "Slime"
+            BlueprintIdentifier = "942C67FF2C1D0E5700FD598C"
+            BuildableName = "Slime iOS.app"
+            BlueprintName = "Slime iOS"
             ReferencedContainer = "container:Slime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
